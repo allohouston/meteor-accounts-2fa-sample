@@ -1,0 +1,10 @@
+{
+  "private": {
+    "oauthSecretKey": "uZdnc4T6FX3MPS4BsCPMJw==",
+    "twoFactor": {
+      "otp": true,
+      "email": false,
+      "hashSecret": "sample-email-hash-secret"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.sample {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sample form,
+.sample section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.sample label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sample input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid hsl(220, 14%, 90%);
+  border-radius: 0.5rem;
+  font: inherit;
+}
+
+.sample button {
+  align-self: flex-start;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.sample .notice {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(220, 14%, 90%);
+  border-radius: 0.5rem;
+}
+
+.sample .muted {
+  color: hsl(220, 10%, 50%);
+}
